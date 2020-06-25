@@ -21,5 +21,5 @@ Refer to our [documentation](https://docs.echoar.xyz/) to learn more about how t
 Feel free to reach out at [support@echoAR.xyz](mailto:support@echoAR.xyz) or join our [support channel on Slack](https://join.slack.com/t/echoar/shared_invite/enQtNTg4NjI5NjM3OTc1LWU1M2M2MTNlNTM3NGY1YTUxYmY3ZDNjNTc3YjA5M2QyNGZiOTgzMjVmZWZmZmFjNGJjYTcxZjhhNzk3YjNhNjE).
 
 ## Screenshots
-![start screen](/screenshots/start%20screen.JPG)
-![fox](/screenshots/fox.JPG)
+![start screen](/screenshots/start%20screen.jpg)
+![fox](/screenshots/fox.jpg)
