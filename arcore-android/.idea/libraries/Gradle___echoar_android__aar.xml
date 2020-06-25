@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :echoar-android:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/echoar-android.aar/45f52216b72676b4722db125710b53d0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/echoar-android.aar/45f52216b72676b4722db125710b53d0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/echoar-android.aar/45f52216b72676b4722db125710b53d0/jars/libs/echoAR-java-data.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.google.ar.core.examples.java.helloar">
+
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <!-- This tag indicates that this application requires ARCore.
+     This results in the application only being visible in the Google Play Store
+     on devices that support ARCore.
+  -->
+  <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+  <!--
+    This permission gets access to the camera.
+  -->
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <!--
+          This permission allows opening network sockets.
+      -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <!--
+      This permission checks which network access properties (e.g.
+      active type: 3G/WiFi).
+   -->
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <!--
+      This permission allows writing data to SD card.
+  -->
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+  <application
+      android:allowBackup="false"
+      android:icon="@drawable/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme"
+      android:usesCleartextTraffic="false"
+      tools:ignore="GoogleAppIndexingWarning">
+    <!-- Splash Screen Activity -->
+    <activity
+        android:name="com.google.ar.core.examples.java.helloar.SplashScreen"
+        android:configChanges="orientation|keyboardHidden"
+        android:screenOrientation="portrait"
+        android:noHistory="true"
+        >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <!-- AR camera Screen Activity -->
+    <activity
+        android:name="com.google.ar.core.examples.java.helloar.HelloArActivity"
+        android:configChanges="orientation|screenSize"
+        android:exported="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:screenOrientation="locked">
+    </activity>
+    <!-- This tag indicates that this application requires ARCore.  This results in the Google Play
+         Store downloading and installing ARCore along with the application. -->
+    <meta-data android:name="com.google.ar.core" android:value="required" />
+  </application>
+</manifest>
