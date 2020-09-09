@@ -1,5 +1,5 @@
 # Android-ARCore-echoAR
-Example Android project with AR Core and echoAR integrated.
+Example Android project with AR Core and echoAR integrated. Tested on Android Studio and VS code.
 
 ## Register
 Don't have an API key? Make sure to register for FREE at [echoAR](https://console.echoar.xyz/#/auth/register).
