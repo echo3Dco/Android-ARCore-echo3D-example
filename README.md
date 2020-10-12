@@ -1,4 +1,4 @@
-# Android-ARCore-echoAR
+# Android-ARCore-echoAR-example
 Example Android project with AR Core and echoAR integrated. Tested on Android Studio and VS code.
 
 ## Register
