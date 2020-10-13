@@ -6,7 +6,7 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 
 ## Setup
 * Clone this repository.
-* Open the [arcore-android project](/arcore-android) folder in Android Studio.
+* Open the [arcore-android project](/arcore-android) folder in [Android Studio](https://developer.android.com/studio).
 
 ## Run
 * [Add a 3D model](https://docs.echoar.xyz/quickstart/add-a-3d-model) to the console
