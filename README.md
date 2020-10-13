@@ -5,14 +5,15 @@ Example Android project with AR Core and echoAR integrated. Tested on Android St
 Don't have an API key? Make sure to register for FREE at [echoAR](https://console.echoar.xyz/#/auth/register).
 
 ## Setup
-* Clone this repo into your machine
-* Open the [arcore-android project folder](/arcore-android) in your favorite IDE
+* Clone this repository.
+* Open the [arcore-android project](/arcore-android) folder in Android Studio.
 
 ## Run
 * [Add a 3D model](https://docs.echoar.xyz/quickstart/add-a-3d-model) to the console
-* Build and run the AR Android application
+* Build and run the AR Android application.
 * Enter your API key in the app's first screen, and press **GO**
-* Find a surface and tap it
+* Move your pohne around until a surface is detected and marked with a virtual grid.
+* Tap the virtual grid.
 
 ## Learn more
 Refer to our [documentation](https://docs.echoar.xyz/) to learn more about how to use echoAR.
