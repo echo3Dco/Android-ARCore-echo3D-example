@@ -1,5 +1,5 @@
 # Android-ARCore-echo3D-example
-Example Android project with AR Core and echo3D integrated. Tested on Android Studio and VS code.
+Example Android project with AR Core and echo3D integrated.
 
 ## Register
 Don't have an API key? Make sure to register for FREE at [echo3D](https://console.echo3D.co/#/auth/register).
@@ -7,7 +7,7 @@ Don't have an API key? Make sure to register for FREE at [echo3D](https://consol
 ## Setup
 * Clone this repository.
 * Open in Unity 2020.3.25 or later.
-* [Import the Unity SDK into Unity](https://medium.com/r/?url=https%3A%2F%2Fdocs.echo3d.co%2Funity%2Finstallation). Troubleshoot [here](https://medium.com/r/?url=https%3A%2F%2Fdocs.echo3d.co%2Funity%2Ftroubleshooting%23im-getting-a-newtonsoft.json.dll-error-in-unity).
+* [Import the Unity SDK](https://medium.com/r/?url=https%3A%2F%2Fdocs.echo3d.co%2Funity%2Finstallation). Troubleshoot [here](https://medium.com/r/?url=https%3A%2F%2Fdocs.echo3d.co%2Funity%2Ftroubleshooting%23im-getting-a-newtonsoft.json.dll-error-in-unity).
 * Open the [arcore-android project](/arcore-android) folder in [Android Studio](https://developer.android.com/studio).
 
 ## Run
